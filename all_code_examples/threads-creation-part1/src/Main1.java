@@ -33,6 +33,9 @@ public class Main1 {
             @Override
             public void run() {
                 //Code that will run in  a new thread
+                System.out.println("111");
+                System.out.println("222");
+                System.out.println("aaa");
                 System.out.println("we are now in thread "+Thread.currentThread().getName());
                 System.out.println("Current thread priority is " + Thread.currentThread().getPriority());
             }
